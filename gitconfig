@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -51,4 +51,4 @@
   rebase = false
 [user]
 	email = victor.bonnet.mg@gmail.com
-	name = VictorBonnet
+	name = Victor Bonnet
